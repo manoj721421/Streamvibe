@@ -1,0 +1,62 @@
+  .background-dark{background-color: #1d1d1d !important;}
+  .background-red{background-color: red !important;}
+
+  .accordion-item{
+    background-color: #141414 !important;
+    border:0px !important;
+    border-bottom: 1px solid red !important;
+  }
+
+  .accordion-header{
+    border-radius: 8px !important;
+  }
+
+  .accordion-header:nth-child(1) button{
+    background-color: #141414 !important;
+    color: white !important;
+    border-radius: 8px !important;
+  }
+
+  .accordion-button::after{
+    color:white !important;
+  }
+
+  .color-red{
+    color:red;
+  }
+
+  //swiper css
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+  }
+
+  .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #141414, #00000080);
+    pointer-events: none;
+    z-index: -1;
+    /* Ensure the mask doesn't interfere with image interactions */
+}

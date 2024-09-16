@@ -1,0 +1,20 @@
+Documentation URL: https://www.postman.com/devrel/workspace/tmdb-api/documentation/13191452-e12a1487-f709-47b4-9f55-c11c8e0daea2
+============================================================================================================================================
+
+Base URL: https://api.themoviedb.org/3
+
+top rated list: /movie/top_rated?api_key=1268590fd0b518ebdddbeb4a3e70199c&language=en-US&page={pageNumber}
+
+popular list: /movie/popular?api_key=1268590fd0b518ebdddbeb4a3e70199c&language=en-US&page={pageNumber}
+
+Now Playing: /movie/now_playing?api_key=1268590fd0b518ebdddbeb4a3e70199c&language=en-US&page={pageNumber}
+
+upcoimg list: /movie/upcoming?api_key=1268590fd0b518ebdddbeb4a3e70199c&language=en-US&page={pageNumber}
+
+Get Details(movie): /movie/{movie_id}?api_key=1268590fd0b518ebdddbeb4a3e70199c&language=en-US
+
+Get Similar(movies): 
+
+Genres List : /genre/movie/list?api_key=1268590fd0b518ebdddbeb4a3e70199c&language=en-US&page={pageNumber}
+
+To get the genre wise :

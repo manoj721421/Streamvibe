@@ -1,0 +1,154 @@
+//Custom Classes
+//=============================================================================================
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100% !important;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.landScreenmask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #141414, #00000080, #141414);
+    pointer-events: none;
+    /* Ensure the mask doesn't interfere with image interactions */
+}
+
+.welComeLogo {
+    background-color: transparent;
+    top: 16%;
+    left: 36%;
+    opacity: 1;
+    width: 500px;
+}
+
+@media screen and (max-width:480px) {
+    .image-container {
+        width: 100vw;
+        overflow: hidden;
+        height: 70vh;
+    }
+
+    .image {
+        width: auto;
+    }
+
+    .welComeLogo {
+        top: 24%;
+        left: 15%;
+        width: 287px;
+    }
+}
+
+.freeBannerMask {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background-dark {
+    background-color: #1d1d1d !important;
+    color:white
+}
+
+.background-black{
+background-color: black;
+color:white
+}
+
+.background-black {
+    background-color: black !important;
+}
+
+.background-red {
+    background-color: red !important;
+}
+
+.color-red{
+    color:red;
+}
+
+.background-transparent {
+    background-color: transparent !important;
+}
+
+.text-container {
+    position: absolute !important;
+    bottom: 0%;
+    background-color: transparent;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.genresCard {
+    overflow-x: scroll;
+    display: inline-flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    column-gap: 15px;
+}
+
+.genresCard::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
+
+.sidebar {
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+//Elements style
+//=====================================================================================================================
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+h1,
+p {
+    background-color: transparent;
+    margin: 0px !important
+}
+
+::placeholder {
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: red;
+}
+
+input[text]{
+    height: 50px !important;
+}
+
+th{background-color: black !important;}
+td{ background-color: #141414 !important;}
